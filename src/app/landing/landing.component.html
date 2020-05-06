@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="nav-bar">
+    <div class="heading">Is it the 10th of August 2020?</div>
+    <div class="button-container">
+      <button
+        class="flex-item"
+        mat-fab
+        color="secondary"
+        aria-label="Example icon button with a delete icon"
+        [routerLink]="['therellBeSomeShtoppinMe']"
+      >
+        <mat-icon>clear</mat-icon>
+      </button>
+      <button
+        class="flex-item"
+        mat-fab
+        color="primary"
+        aria-label="Example icon button with a delete icon"
+        [routerLink]="['goAhItAgin']"
+      >
+        <mat-icon>done</mat-icon>
+      </button>
+    </div>
+    <div>Since today is the {{ dateTimeNow }}</div>
+  </div>
+</div>
