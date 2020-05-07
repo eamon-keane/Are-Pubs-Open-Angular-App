@@ -7,8 +7,8 @@ import { NoComponent } from "./no/no.component";
 const routes: Routes = [
   { path: "", redirectTo: "/", pathMatch: "full" },
   { path: "", component: LandingComponent },
-  { path: "goAhItAgin", component: YesComponent },
-  { path: "therellBeSomeShtoppinMe", component: NoComponent },
+  { path: "GoAhItAgain", component: YesComponent },
+  { path: "TherellBeSomeShtoppinMe", component: NoComponent },
 ];
 
 @NgModule({

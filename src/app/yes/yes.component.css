@@ -3,13 +3,12 @@
   color: aliceblue;
 }
 img {
+  border-radius: 50%;
   display: block;
-  margin: auto;
+  margin: 10px auto;
   max-width: 50%;
   max-height: 50%;
-  /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: wobble 5s;
-  /* When the animation is finished, start again */
   animation-iteration-count: infinite;
 }
 
@@ -93,7 +92,7 @@ wobble {
 }
 .heading {
   font-size: 2rem;
-  width: 50%;
+  width: 70%;
   margin: 100px auto;
   text-align: center;
   font-weight: 500;

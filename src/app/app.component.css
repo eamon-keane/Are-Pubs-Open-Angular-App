@@ -1,5 +1,8 @@
+.app-container {
+  max-height: 100%;
+}
 footer {
-  font-family: "Comic Sans", "Comic Sans MS", cursive;
+  font-family: "Comic Sans", "Comic Sans MS";
   position: absolute;
   bottom: 0;
   color: aliceblue;
@@ -9,6 +12,7 @@ footer {
   font-size: medium;
 }
 a {
+  font-family: "Comic Sans", "Comic Sans MS";
   color: aliceblue;
 }
 .example-spacer {
