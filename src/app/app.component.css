@@ -1,4 +1,13 @@
 footer {
+  font-family: "Zapf Chancery", cursive, "Comic Sans", "Comic Sans MS", cursive;
   position: absolute;
   bottom: 0;
+  color: aliceblue;
+  width: 100%;
+  margin: 5px auto;
+  text-align: center;
+  font-size: medium;
+}
+a {
+  color: aliceblue;
 }

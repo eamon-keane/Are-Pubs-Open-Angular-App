@@ -6,7 +6,20 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./no.component.css"],
 })
 export class NoComponent implements OnInit {
+  audio = new Audio();
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.playAudio();
+  }
+
+  playAudio() {
+    this.audio.src = "../../assets/sounds/Paddy Losty.mp3";
+    this.audio.load();
+    this.audio.play();
+  }
+  ngOnDestroy() {
+    this.audio.pause();
+    this.audio.currentTime = 0;
+  }
 }

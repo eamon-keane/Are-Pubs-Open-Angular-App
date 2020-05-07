@@ -1,26 +1,24 @@
 <div class="container">
-  <div class="nav-bar">
-    <div class="heading">Has it passed 10th August 2020 yet?</div>
-    <div class="button-container">
-      <button
-        class="flex-item"
-        mat-fab
-        color="secondary"
-        aria-label="Example icon button with a delete icon"
-        [routerLink]="['therellBeSomeShtoppinMe']"
-      >
-        <mat-icon>clear</mat-icon>
-      </button>
-      <button
-        class="flex-item"
-        mat-fab
-        color="primary"
-        aria-label="Example icon button with a delete icon"
-        [routerLink]="['goAhItAgin']"
-      >
-        <mat-icon>done</mat-icon>
-      </button>
-    </div>
-    <div>Since today is the {{ dateTimeNow | date: "longDate" }}</div>
+  <div class="heading">Has it passed the 10th August 2020 yet?</div>
+  <div class="button-container">
+    <button
+      class="flex-item"
+      mat-fab
+      color="warn"
+      aria-label="Example icon button with a delete icon"
+      [routerLink]="['therellBeSomeShtoppinMe']"
+    >
+      <mat-icon>clear</mat-icon>
+    </button>
+    <button
+      class="flex-item"
+      mat-fab
+      color="primary"
+      aria-label="Example icon button with a delete icon"
+      [routerLink]="['goAhItAgin']"
+    >
+      <mat-icon>done</mat-icon>
+    </button>
   </div>
+  <div class="sound-on">Sound ON <mat-icon>volume_up</mat-icon></div>
 </div>
