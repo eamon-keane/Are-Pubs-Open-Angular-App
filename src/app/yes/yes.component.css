@@ -91,3 +91,10 @@ wobble {
   -webkit-animation-name: wobble;
   animation-name: wobble;
 }
+.heading {
+  font-size: 2rem;
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+  font-weight: 500;
+}

@@ -92,3 +92,11 @@ hinge {
   -webkit-animation-name: hinge;
   animation-name: hinge;
 }
+
+.heading {
+  font-size: 2rem;
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+  font-weight: 500;
+}

@@ -11,3 +11,10 @@ footer {
 a {
   color: aliceblue;
 }
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-button {
+  margin: 0 2px;
+}

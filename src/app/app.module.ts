@@ -7,8 +7,10 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatButtonModule } from "@angular/material/button";
 import { LandingComponent } from "./landing/landing.component";
 import { MatIconModule } from "@angular/material/icon";
-import { YesComponent } from './yes/yes.component';
-import { NoComponent } from './no/no.component';
+import { YesComponent } from "./yes/yes.component";
+import { NoComponent } from "./no/no.component";
+import { MatMenuModule } from "@angular/material/menu";
+import { MatToolbarModule } from "@angular/material/toolbar";
 
 @NgModule({
   declarations: [AppComponent, LandingComponent, YesComponent, NoComponent],
@@ -18,6 +20,8 @@ import { NoComponent } from './no/no.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
+    MatMenuModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
