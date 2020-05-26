@@ -4,4 +4,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Simple SPA built using angular
 
+Built for fun.
+
 https://www.arepubsinirelandopen.com/
